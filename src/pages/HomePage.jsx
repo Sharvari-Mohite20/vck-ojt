@@ -66,6 +66,7 @@ const Home = () => {
           <p className="caption">
             A vibrant, green, and modern campus designed to inspire learning and collaboration.
           </p>
+          
         </div>
       </div>
     </div>

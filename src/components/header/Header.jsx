@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css'
-
+import './header.css';
 
 const Header = () => {
   return (
- <div className="header">
+    <div className="header">
       <div className="logo">Vivekanand College</div>
 
       <nav className="navbar">
@@ -13,11 +12,12 @@ const Header = () => {
         <Link to="/AboutPage" className="nav-link">About</Link>
         <Link to="/CoursesPage" className="nav-link">Courses</Link>
         <Link to="/ContactPage" className="nav-link">Contact</Link>
-        <Link to="/AdmissionPage" className="nav-link">Admission</Link>
-        <Link to="/NotFoundPage" className="nav-link"><button>Apply Now</button></Link>
+        {/* <Link to="/AdmissionsPage" className="nav-link">Admission</Link> */}
+        <Link to="/AdmissionsPage" className="nav-link">
+          <button>Apply Now</button>
+        </Link>
       </nav>
     </div>
-
   );
 };
 

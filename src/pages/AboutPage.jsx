@@ -1,21 +1,44 @@
 import React from 'react';
-import Header from '../components/header/Header'; // Correct path to Header
-import Footer from '../components/footer/Footer'; // Correct path to Header
-
- // Optional: if you have About page-specific styles
+import Header from '../components/header/Header';
+import './About.css';
 
 const AboutPage = () => {
   return (
     <div>
-      <Header /> 
+      <Header />
+      <div className="about-container about-background">
+        <div className="about-box">
+          <h1 className="about-title">About Vivekanand College</h1>
+          <p>
+            Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative
+            education since its inception in <strong>[Year of Establishment, e.g., 1980]</strong>. Located in the
+            bustling heart of <strong>[City/Area, e.g., Chembur, Mumbai]</strong>, our college has consistently strived
+            to uphold the highest standards of academic rigor and ethical values.
+          </p>
+          <p>
+            Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense
+            of social responsibility. We aim to nurture individuals who are not only successful in their careers but
+            also contributing members of society.
+          </p>
 
-      <div className="page-about">
-        <h2>About Us</h2>
-        <p>
-          Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering
-          transformative education. We aim to empower students through academic excellence and
-          holistic development.
-        </p>
+          <h2>Our Mission</h2>
+          <hr />
+          <ul>
+            <li>To provide high-quality, accessible education across various disciplines.</li>
+            <li>To foster research, innovation, and creativity among students and faculty.</li>
+            <li>To cultivate a diverse and inclusive learning environment.</li>
+            <li>To instill strong ethical values and leadership qualities.</li>
+          </ul>
+
+          <h2>Our Values</h2>
+          <hr />
+          <ul>
+            <li>Integrity and transparency in all endeavors.</li>
+            <li>Commitment to academic and professional excellence.</li>
+            <li>Respect for diversity and human dignity.</li>
+            <li>Community engagement and social responsibility.</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
