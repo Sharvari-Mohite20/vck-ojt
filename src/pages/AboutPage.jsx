@@ -20,6 +20,11 @@ const AboutPage = () => {
             of social responsibility. We aim to nurture individuals who are not only successful in their careers but
             also contributing members of society.
           </p>
+          <video width="100%" height="auto" controls>
+  <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" type="video/mp4" controls />
+  Your browser does not support the video tag.
+</video>
+
 
           <h2>Our Mission</h2>
           <hr />

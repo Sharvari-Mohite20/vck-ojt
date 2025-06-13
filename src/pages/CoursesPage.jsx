@@ -8,6 +8,7 @@ const CoursesPage = () => {
     <div>
       <Header />
       <div className="page-container about-background">
+
         <div className="scroll-box">
           <h1 className="page-title">Courses Offered</h1>
           <p className="page-description">
