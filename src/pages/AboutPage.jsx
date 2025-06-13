@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import './About.css';
+import Footer from '../components/footer/Footer';
 
 const AboutPage = () => {
   return (
@@ -21,9 +22,9 @@ const AboutPage = () => {
             also contributing members of society.
           </p>
           <video width="100%" height="auto" controls>
-  <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" type="video/mp4" controls />
-  Your browser does not support the video tag.
-</video>
+              <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" type="video/mp4" controls />
+              Your browser does not support the video tag.
+          </video>
 
 
           <h2>Our Mission</h2>
@@ -45,6 +46,7 @@ const AboutPage = () => {
           </ul>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
