@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px;
+  padding-top: 10px;
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
@@ -12,12 +12,14 @@
   background-color: #3ddad7;
   width: 100%;
   padding-left: 0;
+  padding-top: 20px;
 }
 
 .scroll-box {
   background: white;
   border-radius: 10px;
-  padding: 30px;
+  
+  padding-top: 10px;
   max-width: 900px;
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

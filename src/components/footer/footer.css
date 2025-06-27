@@ -1,10 +1,18 @@
 .footer {
-    background-color: #2a2b2c;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    font-size: .9em;
-    box-shadow: 0 -2px 8px #0000001a;
-    flex-shrink: 0;
-    margin-top: auto;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.95em;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 100;
+}
+
+/* Add this to ensure footer text is white */
+.footer p {
+  color: #ffffff;
+  margin: 0;
 }

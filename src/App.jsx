@@ -30,7 +30,7 @@ const App=() => {
       </div>
       <div>
         <BrowserRouter>  
-            <Routes>
+            <Routes>  
                 <Route path='/' element={<Home/>}></Route>
                 <Route path='/AboutPage' element={<AboutPage/>}></Route>
                 <Route path='/AdmissionsPage' element={<AdmissionsPage/>}></Route>
@@ -40,6 +40,7 @@ const App=() => {
             </Routes>
           <ChatbotComponent/>
         </BrowserRouter>
+        
       </div>
     </>
   )

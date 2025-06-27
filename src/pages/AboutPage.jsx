@@ -29,7 +29,7 @@ const AboutPage = () => {
 
           <h2>Our Mission</h2>
           <hr />
-          <ul>
+          <ul className='ul1'>
             <li>To provide high-quality, accessible education across various disciplines.</li>
             <li>To foster research, innovation, and creativity among students and faculty.</li>
             <li>To cultivate a diverse and inclusive learning environment.</li>

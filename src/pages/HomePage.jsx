@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import './Home.css';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
@@ -12,8 +12,6 @@ const Home = () => {
         <div className="scroll-box">
           {/* Welcome Banner Section */}
           <div className="header-image-container">
-            
-            
             <img
               src="/images/header_top (1).jpg"
               alt="Welcome Banner"
@@ -67,10 +65,9 @@ const Home = () => {
           <p className="caption">
             A vibrant, green, and modern campus designed to inspire learning and collaboration.
           </p>
-          
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

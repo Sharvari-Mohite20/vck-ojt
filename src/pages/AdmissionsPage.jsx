@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import './Admission.css';
+import Footer from '../components/footer/Footer';
 
 const AdmissionsPage = () => {
   return (
@@ -45,6 +46,7 @@ const AdmissionsPage = () => {
           <p>For more queries, visit the <strong>Contact</strong> page or reach out to our admissions team.</p>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

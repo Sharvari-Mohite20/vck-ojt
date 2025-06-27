@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .about-container {
@@ -28,4 +28,8 @@
   text-align: center;
   color: #007bff;
   font-weight: bold;
+}
+
+.ul1{
+  text-align: left;
 }

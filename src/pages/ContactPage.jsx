@@ -2,6 +2,8 @@
 import React from 'react';
 import './Contact.css';
 import Header from '../components/header/Header';
+import Footer from '../components/footer/Footer';
+
 
 const ContactPage = () => {
   return (
@@ -22,8 +24,8 @@ const ContactPage = () => {
               <p>
                 [Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]
                 India<br></br>
-                Phone: **+91 12345 67890**<br></br>
-                Email: **info@vivekanandcollege.edu**<br></br>
+                Phone: +91 12345 67890**<br></br>
+                Email: info@vivekanandcollege.edu<br></br>
                 Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST<br></br>
               </p>
               <h2>Admissions Office</h2>
@@ -49,6 +51,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
