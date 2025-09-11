@@ -1,4 +1,6 @@
-import './Footer.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./footer.css"; // matches exact filename (lowercase)
 
 const Footer = () => {
   return (
