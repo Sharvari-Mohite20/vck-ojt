@@ -19,7 +19,7 @@ const Home = () => {
             />
             <div className="header-overlay">
               <h1>Welcome to Vivekanand College!</h1>
-              <a href="#apply" className="apply-button">Apply Now!</a>
+              <a href="./AdmissionsPage" className="apply-button">Apply Now!</a>
             </div>
           </div>
 
