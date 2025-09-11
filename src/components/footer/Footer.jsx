@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./footer.css"; // matches exact filename (lowercase)
+import "./footer.css"; 
 
-const Footer = () => {
+const footer = () => {
   return (
     <footer className="footer">
       <p>© 2025 Vivekanand College. All rights reserved.</p>
@@ -10,4 +10,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default footer;
