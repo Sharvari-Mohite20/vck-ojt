@@ -1,8 +1,9 @@
+/* Courses.css */
 .page-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 10px;
+  align-items: flex-start; /* change from center to top align */
+  padding-top: 10px; /* reduced from 20px */
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
@@ -12,8 +13,9 @@
   background-color: #3ddad7;
   width: 100%;
   padding-left: 0;
-  padding-top: 20px;
+  padding-top: 10px; /* removed extra top padding */
 }
+
 
 .scroll-box {
   background: white;

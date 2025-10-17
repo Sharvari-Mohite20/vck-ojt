@@ -17,7 +17,7 @@
 }
 
 .page-title.admissions-title {
-  color: #007bff;
+  color: #004080;
   font-size: 2rem;
   text-align: center;
 }
@@ -25,6 +25,7 @@
 .section-title {
   margin-top: 1.5rem;
   font-weight: bold;
+  color: #0073e6;
 }
 
 ul {
