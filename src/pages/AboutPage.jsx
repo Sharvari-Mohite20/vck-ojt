@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
-import './About.css';
 import Footer from '../components/footer/Footer';
+import './About.css';
 
 const AboutPage = () => {
   return (
@@ -21,15 +21,15 @@ const AboutPage = () => {
             of social responsibility. We aim to nurture individuals who are not only successful in their careers but
             also contributing members of society.
           </p>
-          <video width="100%" height="auto" controls>
-              <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" type="video/mp4" controls />
-              Your browser does not support the video tag.
-          </video>
 
+          <video width="100%" height="auto" controls>
+            <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
 
           <h2>Our Mission</h2>
           <hr />
-          <ul className='ul1'>
+          <ul className="ul1">
             <li>To provide high-quality, accessible education across various disciplines.</li>
             <li>To foster research, innovation, and creativity among students and faculty.</li>
             <li>To cultivate a diverse and inclusive learning environment.</li>
@@ -46,7 +46,7 @@ const AboutPage = () => {
           </ul>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

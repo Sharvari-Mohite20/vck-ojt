@@ -1,6 +1,6 @@
 // pages/CoursesPage.jsx
 import React from 'react';
-import '../App.css'; // or create a separate CSS if needed
+import './Courses.css'; // or create a separate CSS if needed
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 

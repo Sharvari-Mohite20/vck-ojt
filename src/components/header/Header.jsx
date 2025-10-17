@@ -18,7 +18,7 @@ const Header = () => {
           <Link to="/AboutPage" className="nav-link">About</Link>
           <Link to="/CoursesPage" className="nav-link">Courses</Link>
           <Link to="/ContactPage" className="nav-link">Contact</Link>
-          <button><a href="./AdmissionsPage" className="apply-button">Apply Now!</a></button>
+          <Link to="/AdmissionsPage"><button className='apply-button-2'>Apply Now!</button></Link>
         </nav>
 
         {/* Hamburger icon */}

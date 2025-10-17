@@ -1,9 +1,10 @@
-import React from 'react'; 
+import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div className="home-wrapper">
       <Header />
@@ -19,7 +20,7 @@ const Home = () => {
             />
             <div className="header-overlay">
               <h1>Welcome to Vivekanand College!</h1>
-              <a href="./AdmissionsPage" className="apply-button">Apply Now!</a>
+              <Link to="/AdmissionsPage" ><button className='apply-button'>Apply Now!</button></Link>
             </div>
           </div>
 
@@ -67,9 +68,10 @@ const Home = () => {
           </p>
         </div>
       </div>
+
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
