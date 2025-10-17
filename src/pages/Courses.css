@@ -12,17 +12,17 @@
 .about-background {
   background-color: #3ddad7;
   width: 100%;
-  padding-left: 0;
+  padding-left: 20px;
   padding-top: 10px; /* removed extra top padding */
 }
 
 
 .scroll-box {
   background: white;
-  border-radius: 10px;
-  
+  border-radius: 16px;
   padding-top: 10px;
-  max-width: 900px;
+  padding: 40px;
+  max-width: 1000px;
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
