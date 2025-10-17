@@ -4,8 +4,6 @@ import './Courses.css'; // or create a separate CSS if needed
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
-
-
 const CoursesPage = () => {
   return (
     <div>

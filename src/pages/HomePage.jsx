@@ -11,6 +11,7 @@ const HomePage = () => {
 
       <div className="home-container">
         <div className="scroll-box">
+
           {/* Welcome Banner Section */}
           <div className="header-image-container">
             <img
@@ -25,7 +26,7 @@ const HomePage = () => {
           </div>
 
           {/* About Section */}
-          <h1 className="page-title">About Vivekanand College</h1>
+          <h1 className="page-title">Welcome Vivekanand College</h1>
           <p>
             <strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic
             excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of
