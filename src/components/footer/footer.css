@@ -6,10 +6,9 @@
   font-size: 0.95em;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  flex-shrink: 0;
-  position: relative;
-  z-index: 100;
+  margin-top: auto; /* ✅ pushes footer to bottom when content is short */
 }
+
 
 /* Ensure footer text is white */
 .footer p {
@@ -17,3 +16,5 @@
   margin: 0;
   text-align: center;
 }
+
+

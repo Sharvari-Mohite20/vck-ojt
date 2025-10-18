@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css"; 
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <p>© 2025 Vivekanand College. All rights reserved.</p>
@@ -10,4 +10,5 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
+
