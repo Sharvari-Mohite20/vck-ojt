@@ -24,7 +24,7 @@ const AboutPage = () => {
 
           
 
-          <h2>Our Mission</h2>
+          <h2 className="about-title2">Our Mission</h2>
           <hr />
           <ul className="ul1">
             <li>To provide high-quality, accessible education across various disciplines.</li>
@@ -33,7 +33,7 @@ const AboutPage = () => {
             <li>To instill strong ethical values and leadership qualities.</li>
           </ul>
 
-          <h2>Our Values</h2>
+          <h2 className="about-title2">Our Values</h2>
           <hr />
           <ul>
             <li>Integrity and transparency in all endeavors.</li>
