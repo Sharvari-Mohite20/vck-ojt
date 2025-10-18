@@ -32,12 +32,21 @@
   text-align: center;
   color: #004080;
   margin-bottom: 20px;
+  
+}
+.page-title2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .page-description {
   font-size: 18px;
   margin-bottom: 30px;
   text-align: justify;
+  width: 100%;
+  
 }
 
 .course-list {
@@ -61,4 +70,25 @@
 .course-item p {
   margin-bottom: 0;
   font-size: 16px;
+}
+
+.last{
+  text-align: center;
+  font-size: 15px;
+}
+
+.apply-button {
+  background-color: #28a745 !important;
+  color: white !important;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #218838 !important;
 }
