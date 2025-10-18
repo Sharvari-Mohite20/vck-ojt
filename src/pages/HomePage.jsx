@@ -32,14 +32,14 @@ const HomePage = () => {
             excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of
             students, empowering them to achieve their full potential.
           </p>
-          <p>
+          <p >
             At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our
             state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem
             where curiosity thrives and future leaders are shaped.
           </p>
 
           {/* Why Choose Us */}
-          <h2>Why Choose Vivekanand College?</h2>
+          <h2 className="page-title2">Why Choose Vivekanand College?</h2>
           <ul>
             <li>Legacy of Excellence: Decades of commitment to quality education.</li>
             <li>Experienced Faculty: Learn from renowned experts and passionate educators.</li>
@@ -49,7 +49,7 @@ const HomePage = () => {
           </ul>
 
           {/* Our Values */}
-          <h2>Our Values</h2>
+          <h2 className="page-title2">Our Values</h2>
           <ul>
             <li>Excellence in Education</li>
             <li>Integrity and Accountability</li>
@@ -58,17 +58,23 @@ const HomePage = () => {
           </ul>
 
           {/* Campus Section */}
-          <h2>Campus Life & Facilities</h2>
+          <h2 className="page-title2">Campus Life & Facilities</h2>
           <img
             src="https://vck.codewonders.in/assets/students-studying-DbLGuwF_.jpeg"
             alt="Campus Life"
             className="campus-img"
           />
+        <br></br>
+          <img
+            src="https://media.collegedekho.com/media/img/institute/crawled_images/VC_Banner_2.jpg?width=640"
+            alt="Campus Life"
+            className="campus-img"
+          />
           
           <p className="caption">
-            A vibrant, green, and modern campus designed to inspire learning and collaboration.
+            Explore our vibrant, green, and modern campus Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth..
           </p>
-          <br></br>
+          
           <p className='caption2'>
             Ready to explore our Courses?
           </p>
