@@ -64,12 +64,18 @@ const HomePage = () => {
             alt="Campus Life"
             className="campus-img"
           />
+          
           <p className="caption">
             A vibrant, green, and modern campus designed to inspire learning and collaboration.
           </p>
+          <br></br>
+          <p className='caption2'>
+            Ready to explore our Courses?
+          </p>
+          <br></br>
+          <Link to="/CoursesPage" ><button className='apply-button'>Explore Courses!</button></Link>
         </div>
       </div>
-
       <Footer />
     </div>
   );
